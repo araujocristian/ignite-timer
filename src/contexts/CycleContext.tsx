@@ -4,7 +4,7 @@ import {
   finishCurrentCycleAction,
   interruptCurrentCycleAction,
 } from '../reducers/cycles/actions'
-import { ActionsTypes, Cycle, cyclesReducer } from '../reducers/cycles/reducer'
+import { Cycle, cyclesReducer } from '../reducers/cycles/reducer'
 
 interface CreateCycleData {
   task: string
